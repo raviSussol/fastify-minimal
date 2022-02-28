@@ -1,0 +1,26 @@
+{
+  "name": "fastify-minimal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/raviSussol/fastify-minimal.git",
+  "author": "Ravi Shrestha <ravi.shrestha@sussol.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/session": "^6.4.0",
+    "connect-pg-simple": "^7.0.0",
+    "fastify": "^3.27.2",
+    "fastify-cookie": "^5.6.0",
+    "fastify-plugin": "^3.0.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/connect-pg-simple": "^7.0.0",
+    "@types/node": "^17.0.21",
+    "@types/pg": "^8.6.4",
+    "typescript": "^4.5.5"
+  }
+}
